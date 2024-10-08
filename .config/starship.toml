@@ -55,19 +55,17 @@ format = '[ $user ]($style)'
 [directory]
 style = "fg:mantle bg:mauve"
 format = "[ $path ]($style)"
-truncation_length = 3
-truncation_symbol = "…/"
 
 [git_branch]
 symbol = ""
-style = "bg:sky"
-format = '[[ $symbol $branch ](fg:base bg:sky)]($style)'
+style = "fg:base bg:sky"
+format = '[ $symbol $branch ]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "bg:surface0"
-format = '[[ $time ](fg:text bg:surface0)]($style)'
+style = "fg:text bg:surface0"
+format = '[ $time ]($style)'
 
 [line_break]
 disabled = false
