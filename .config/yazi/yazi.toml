@@ -1,0 +1,4 @@
+[manager]
+    ratio = [1, 2, 5]
+    sort_dir_first = true
+    show_hidden = true
