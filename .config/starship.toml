@@ -5,7 +5,7 @@
 add_newline = true
 
 format = """
-[](surface0)\
+[](fg:base bg:surface0)\
 $time\
 [](bg:red fg:surface0)\
 $username\
@@ -13,7 +13,7 @@ $username\
 $directory\
 [](fg:mauve bg:sky)\
 $git_branch\
-[](fg:sky)\
+[](fg:sky)\
 $line_break$character"""
 
 palette = 'catppuccin_mocha'
@@ -65,7 +65,7 @@ format = '[ $symbol $branch ]($style)'
 disabled = false
 time_format = "%R"
 style = "fg:text bg:surface0"
-format = '[ $time ]($style)'
+format = '[  $time ]($style)'
 
 [line_break]
 disabled = false
