@@ -8,6 +8,7 @@ vorndranj/zsh-plugins path:fzf
 vorndranj/zsh-plugins path:gcloud
 vorndranj/zsh-plugins path:sdkman
 vorndranj/zsh-plugins path:starship
+vorndranj/zsh-plugins path:thefuck
 vorndranj/zsh-plugins path:volta
 vorndranj/zsh-plugins path:yazi
 vorndranj/zsh-plugins path:zoxide
