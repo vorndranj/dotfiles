@@ -16,6 +16,7 @@ alias refresh='source ~/.zshrc'
 alias home="cd ~"
 alias ..="cd .."
 alias dev='cd ~/dev/'
+alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 
 alias tf=terraform
 alias gdockerrun='ADC=~/.config/gcloud/application_default_credentials.json && docker run -e GOOGLE_APPLICATION_CREDENTIALS=/tmp/keys/FILE_NAME.json -v ${ADC}:/tmp/keys/FILE_NAME.json:ro'
