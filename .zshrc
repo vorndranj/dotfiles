@@ -18,7 +18,6 @@ alias ..="cd .."
 alias dev='cd ~/dev/'
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 
-alias tf=terraform
 alias gdockerrun='ADC=~/.config/gcloud/application_default_credentials.json && docker run -e GOOGLE_APPLICATION_CREDENTIALS=/tmp/keys/FILE_NAME.json -v ${ADC}:/tmp/keys/FILE_NAME.json:ro'
 alias gdockerrundebug='gdockerrun -p 5005:5005 -e JAVA_TOOL_OPTIONS="-agentlib:jdwp=transport=dt_socket,address=*:5005,server=y,suspend=n"'
 
