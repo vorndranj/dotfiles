@@ -1,0 +1,7 @@
+font-family = MesloLGS Nerd Font Mono
+font-size = 18
+window-inherit-font-size = false
+
+theme = catppuccin-macchiato
+
+macos-option-as-alt = right

@@ -5,18 +5,43 @@
 add_newline = true
 
 format = """
-[](fg:base bg:surface0)\
 $time\
-[](bg:red fg:surface0)\
 $username\
-[](fg:red bg:mauve)\
 $directory\
-[](fg:mauve bg:sky)\
 $git_branch\
-[](fg:sky)\
-$line_break$character"""
+$line_break$character
+"""
 
-palette = 'catppuccin_mocha'
+
+palette = 'catppuccin_macchiato'
+
+[palettes.catppuccin_macchiato]
+rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+pink = "#f5bde6"
+mauve = "#c6a0f6"
+red = "#ed8796"
+maroon = "#ee99a0"
+peach = "#f5a97f"
+yellow = "#eed49f"
+green = "#a6da95"
+teal = "#8bd5ca"
+sky = "#91d7e3"
+sapphire = "#7dc4e4"
+blue = "#8aadf4"
+lavender = "#b7bdf8"
+text = "#cad3f5"
+subtext1 = "#b8c0e0"
+subtext0 = "#a5adcb"
+overlay2 = "#939ab7"
+overlay1 = "#8087a2"
+overlay0 = "#6e738d"
+surface2 = "#5b6078"
+surface1 = "#494d64"
+surface0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
 
 [palettes.catppuccin_mocha]
 rosewater = "#f5e0dc"
@@ -48,24 +73,22 @@ crust = "#11111b"
 
 [username]
 show_always = true
-style_user = "bg:red fg:mantle"
-style_root = "bg:red fg:mantle"
-format = '[ $user ]($style)'
+format = '[$user ](flamingo)'
 
 [directory]
-style = "fg:mantle bg:mauve"
-format = "[ $path ]($style)"
+style = "mauve"
+format = "[$path ]($style)"
 
 [git_branch]
 symbol = ""
-style = "fg:base bg:sky"
-format = '[ $symbol $branch ]($style)'
+style = "sapphire"
+format = 'on [$symbol $branch ]($style)'
 
 [time]
 disabled = false
 time_format = "%R"
-style = "fg:text bg:surface0"
-format = '[  $time ]($style)'
+style = "teal"
+format = '[ $time ]($style)'
 
 [line_break]
 disabled = false
