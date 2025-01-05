@@ -1,7 +1,10 @@
-font-family = MesloLGS Nerd Font Mono
+font-family = JetBrainsMono Nerd Font Mono
 font-size = 18
 window-inherit-font-size = false
 
 theme = catppuccin-macchiato
 
 macos-option-as-alt = right
+
+#custom-shader = shaders/bettercrt.glsl
+#custom-shader = shaders/bloom.glsl
