@@ -1,8 +1,12 @@
 font-family = JetBrainsMono Nerd Font Mono
 font-size = 18
-window-inherit-font-size = false
+font-feature = -calt
+font-feature = -liga
+font-feature = -dlig
 
-theme = catppuccin-macchiato
+resize-overlay = never
+
+theme = catppuccin-mocha
 
 macos-option-as-alt = right
 
