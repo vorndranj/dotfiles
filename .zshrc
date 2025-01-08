@@ -13,8 +13,8 @@ alias editzsh='nvim ~/.zshrc'
 alias plugins='nvim ~/.zsh_plugins.txt'
 alias refresh='source ~/.zshrc'
 
-alias home="cd ~"
-alias ..="cd .."
+alias home='cd ~'
+alias ..='cd ..'
 alias dev='cd ~/dev/'
 alias inv='nvim $(fzf -m --preview="bat --color=always {}")'
 
