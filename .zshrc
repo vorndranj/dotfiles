@@ -9,8 +9,8 @@ source ${ZDOTDIR:-~}/.antidote/antidote.zsh
 antidote load
 
 # User configuration
-alias editzsh='nvim ~/.zshrc'
-alias plugins='nvim ~/.zsh_plugins.txt'
+alias editzsh='micro ~/.zshrc'
+alias plugins='micro ~/.zsh_plugins.txt'
 alias refresh='source ~/.zshrc'
 
 alias home='cd ~'

@@ -12,3 +12,4 @@ macos-option-as-alt = right
 
 #custom-shader = shaders/bettercrt.glsl
 #custom-shader = shaders/bloom.glsl
+#custom-shader = shaders/crt.glsl
